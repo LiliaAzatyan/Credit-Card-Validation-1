@@ -34,6 +34,7 @@ class DataHandler {
         if (!cardEpiry || cardEpiry < nowDate) {
             console.log('Card expiration problem');
             res.send({ error: true, message: 'Card expiration problem' });
+            res.write("Card Expiration problem");
         }
         ;
         if (cardNumber.slice(0, 2) === '34' || '37') {

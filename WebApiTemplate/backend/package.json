@@ -10,7 +10,7 @@
     "dev": "tsc-watch --onSuccess \"node ./dist/app.js\""
   },
   "prettier": "prettier-airbnb-config",
-  "author": "Arman Dovlatbekyan",
+  "author": "Lilia Azatyan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
